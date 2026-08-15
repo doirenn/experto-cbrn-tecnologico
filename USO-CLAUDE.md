@@ -1,8 +1,10 @@
-# Cómo usar este experto en Claude
+# Cómo usar este experto en Claude (addon)
 
-El catálogo (`knowledge/`, `playbooks/`) no cambia. Cambia el envoltorio: Claude Code lee `CLAUDE.md` y el skill en `.claude/skills/`. claude.ai usa un Project con instrucciones y archivos subidos.
+El uso principal es Cursor: abre este repo y pregunta en el chat. Identidad: [AGENTS.md](AGENTS.md). Skill: `.cursor/skills/experto-cbrn-tecnologico/`.
 
-## 1. Claude Code (recomendado)
+El catálogo (`knowledge/`, `playbooks/`) no cambia. Este archivo es el envoltorio secundario: Claude Code lee `CLAUDE.md` y el skill en `.claude/skills/`. claude.ai usa un Project con instrucciones y archivos subidos.
+
+## 1. Claude Code (addon)
 
 1. Abre Claude Code **dentro de esta carpeta**.
 2. Pregunta o usa `/experto-cbrn-tecnologico`.
